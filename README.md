@@ -8,7 +8,7 @@ This repository contains a detailed collection of hands-on IoT (Internet of Thin
 ## 📚 Table of Contents
 
 ### 🧑‍💻 Getting Started with Raspberry Pi
-- 🧩 Overview of Raspberry Pi 5 Model B and Zero 2W
+- 🧩 Overview of Raspberry Pi 5 Model B 
 - 🔌 Hardware setup and configuration
 - 📍 GPIO programming basics
 
@@ -61,17 +61,6 @@ This repository contains a detailed collection of hands-on IoT (Internet of Thin
 - Python 3.x
 - ThingSpeak Account
 - Google Cloud Account
-
----
-
-## 🤝 Contributing
-
-We ❤️ contributions!  
-You can help improve this repository by:
-- 🐞 Reporting issues
-- 💡 Suggesting improvements
-- ➕ Adding new examples
-- 📝 Enhancing documentation
 
 ---
 
