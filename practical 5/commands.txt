@@ -1,0 +1,17 @@
+✅ MQTT Publish Commands
+mosquitto_pub -h localhost -t "kumbh_mela/sanitation" -m "Toilets sanitized in Sector 5."
+mosquitto_pub -h localhost -t "kumbh_mela/transport" -m "Bus service from Sector 1 to Main Entrance delayed."
+mosquitto_pub -h localhost -t "kumbh_mela/security" -m "Stampede risk near VIP area."
+mosquitto_pub -h localhost -t "kumbh_mela/healthcare" -m "First aid station set up near Gate 3."
+mosquitto_pub -h localhost -t "kumbh_mela/announcements" -m "Please avoid pushing and follow the queue."
+mosquitto_pub -h localhost -t "kumbh_mela/lost_found" -m "Missing: 8-year-old boy, wearing a red shirt."
+mosquitto_pub -h localhost -t "kumbh_mela/management" -m "10 volunteers needed for crowd control at Gate 5."
+
+📥 MQTT Subscribe Commands
+mosquitto_sub -h localhost -t "kumbh_mela/sanitation"
+mosquitto_sub -h localhost -t "kumbh_mela/transport"
+mosquitto_sub -h localhost -t "kumbh_mela/security"
+mosquitto_sub -h localhost -t "kumbh_mela/healthcare"
+mosquitto_sub -h localhost -t "kumbh_mela/announcements"
+mosquitto_sub -h localhost -t "kumbh_mela/lost_found"
+mosquitto_sub -h localhost -t "kumbh_mela/management"
