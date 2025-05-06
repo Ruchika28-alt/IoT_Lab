@@ -5,64 +5,69 @@ This repository contains a detailed collection of hands-on IoT (Internet of Thin
 
 ---
 
-## 📚 Table of Contents
+## 1. 📦 Raspberry Pi 5: Introduction & Components
+- Overview of Raspberry Pi 5 Model B
+- Understanding GPIO pins, camera/display interfaces
+- Operating system setup and basic terminal commands
 
-### 🧑‍💻 Getting Started with Raspberry Pi
-- 🧩 Overview of Raspberry Pi 5 Model B 
-- 🔌 Hardware setup and configuration
-- 📍 GPIO programming basics
+## 2. 🔗 Network Protocols & Cloud (CoAP, MQTT, ThingSpeak)
+- Basics of IoT communication protocols
+- CoAP vs MQTT: architecture & use cases
+- ThingSpeak setup for cloud data visualization
 
-### 🌐 IoT Networking Protocols
-- 🔄 Introduction to **CoAP** and **MQTT**
-- ☁️ ThingSpeak cloud integration
-- ⚖️ Protocol comparison and use cases
+## 3. 📡 IoT Communication Protocols: Wi-Fi, Bluetooth, ZigBee, LoRa
+- Introduction to protocol stacks
+- Hands-on with Bluetooth (HC-05), ZigBee (XBee), LoRa (SX1278)
+- Use-case analysis for each protocol
 
-### 📡 IoT Communication Libraries
-- 📶 Implementation of **Wi-Fi**, **Bluetooth**, **ZigBee**, and **LoRa**
-- 🔍 Practical applications and protocol analysis
+## 4. 📶 Configure XBee & LoRa for WSN
+- XBee S2C and LoRa hardware configuration
+- Creating mesh/star topologies
+- Sending and receiving sensor data wirelessly
 
-### 🕸️ Wireless Sensor Networks (WSN)
-- 🛠️ Configuration of **XBee S2C** and **LoRa** modules
-- 🗺️ Network topology and data transmission
-- 🧠 Real-world applications
+## 5. 🛰️ Real-time MQTT Communication using Mosquitto
+- Setting up Mosquitto MQTT broker locally
+- Using `mosquitto_pub` and `mosquitto_sub` commands
+- Publish/subscribe model in real-time communication
 
-### 🛰️ MQTT and Node-RED Integration
-- 🔧 Setting up **Mosquitto MQTT Broker**
-- 🔁 Creating **Node-RED flows**
-- 📊 Real-time data visualization
+## 6. 🧩 Node-RED UI for MQTT
+- Creating flow-based interfaces for IoT data
+- Subscribing to MQTT topics via Node-RED
+- Displaying live data on charts, gauges, and text dashboards
 
-### 🌡️ ESP32 with DHT Sensor
-- 🌬️ Monitoring **temperature and humidity**
-- 📡 Wi-Fi configuration and ThingSpeak integration
-- 🕒 Real-time data logging
+## 7. ☁️ Real-time Log Register with Google Cloud
+- Integrating Python scripts with Google Cloud APIs
+- Writing sensor data to Firestore/Sheets
+- Time-stamped data logging for remote monitoring
 
-### ☁️ Google Cloud Integration
-- 🛠️ Setting up **Google Cloud APIs**
-- 📈 Data logging and analytics
-- 🔗 Integration with IoT devices
+## 8. 🌡️ ESP32/Arduino with DHT Sensor to ThingSpeak Cloud
+- Reading temperature and humidity using DHT11/DHT22
+- Sending data to ThingSpeak via Wi-Fi
+- Graphing sensor values on the cloud dashboard
 
 ---
 
 ## 🧰 Requirements
 
-### 🔧 Hardware
-- Raspberry Pi 5 Model B
-- ESP32 Development Board
-- DHT11 / DHT22 Sensors
+### Hardware
+- Raspberry Pi 5 Model B / Zero 2W
+- ESP32 / Arduino UNO
+- DHT11/DHT22 Sensors
 - XBee S2C Modules
-- LoRa Modules
+- LoRa Modules (SX1278 or similar)
 - HC-05 Bluetooth Module
-- Jumper Wires and other peripherals
+- Jumper wires, breadboard, power supply
 
-### 💻 Software
+### Software
 - Arduino IDE
+- Python 3.x
 - Node-RED
 - Mosquitto MQTT Broker
-- Python 3.x
 - ThingSpeak Account
 - Google Cloud Account
 
 ---
+
 
 ## 👨‍🔬 Project Author
 
